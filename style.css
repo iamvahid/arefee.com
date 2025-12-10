@@ -30,7 +30,7 @@ header {
     display: inline-block;
     width: 150px;
     border-radius: 10px;
-    border: 2px solid #152c45;
+    border: 2px solid #7f6b29;
 }
 
 
@@ -135,7 +135,7 @@ body.dark_mode .change_theme_button {
     box-shadow: 0 10px 100px rgba(64, 130, 206, 0.5) ;
     text-align: left;
     font-weight: 500;
-    box-shadow: -3px 0px 0px rgba(0, 0, 0, 10) ;
+    box-shadow: -3px 0px 0px rgba(127, 107, 41, 10) ;
 }
 
 p {
