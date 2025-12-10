@@ -1,0 +1,147 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eceff1;;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+
+}
+
+header {
+    background-color: #0d1b2a;
+    padding: 100px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.header_box {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    background-color: #B0BEC5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 100px rgba(64, 130, 206, 0.2) ;
+    text-align: center;
+}
+
+.profile_picture {
+    display: inline-block;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #152c45;
+}
+
+
+.header_box h1, .header_box h3, .header_box h6 {
+    margin: 10px;
+    color: black;
+    font-weight: 900;
+}
+
+.change_theme_button {
+    display: inline-block;
+    background-color: #455A64;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.75em;
+    color: #B0BEC5 ;
+}
+
+.change_theme_button:hover {
+    background-color: #455A64;
+}
+
+body.light_mode {
+    background-color:  #eceff1;
+    color: black;
+}
+
+body.light_mode .header_box {
+    background-color: #B0BEC5;
+}
+
+body.light_mode .header_box h1, .body.light_mode .header_box h3, .body.light_mode .header_box h6 {
+    color: black;
+}
+
+body.light_mode .other_box {
+    background-color: #B0BEC5;
+    color: black;
+}
+
+body.light_mode .detail_box {
+    background-color: #eceff1;
+    color: black;
+}
+
+body.light_mode .change_theme_button {
+    background-color: #455A64;
+    color: #B0BEC5;
+}
+
+
+
+body.dark_mode {
+    background-color: #0b1b2a;
+    color: white;
+}
+
+body.dark_mode .header_box {
+    background-color: #0d1b2a;
+}
+
+body.dark_mode .header_box h1, body.dark_mode .header_box h3, body.dark_mode .header_box h6 {
+    color: white;
+}
+
+body.dark_mode .other_box {
+    background-color: #0d1b2a;
+    color: white;
+}
+
+body.dark_mode .detail_box {
+    background-color: #1a2b3a;
+    color: white;
+}
+
+body.dark_mode .change_theme_button {
+    background-color: #4f6d7a;
+    color: white;
+}
+
+
+
+.other_box {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    background-color: #B0BEC5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 100px rgba(64, 130, 206, 0.2) ;
+    text-align: left;
+    font-weight: 500;
+}
+
+.detail_box {
+    display: inline-block;
+    width: 375px;
+    height: auto;
+    background-color: #eceff1;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 100px rgba(64, 130, 206, 0.2) ;
+    text-align: left;
+    font-weight: 500;
+    box-shadow: -3px 0px 0px rgba(0, 0, 0, 10) ;
+}
+
+p {
+    font-size: 12px;
+}
+
+.skill_list {
+    font-size: 12px;
+}
