@@ -22,7 +22,7 @@ header {
     background-color: #B0BEC5;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 10px 100px rgba(64, 130, 206, 0.2) ;
+    box-shadow: 0 10px 100px rgba(64, 130, 206, 0.5) ;
     text-align: center;
 }
 
@@ -120,7 +120,7 @@ body.dark_mode .change_theme_button {
     background-color: #B0BEC5;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 10px 100px rgba(64, 130, 206, 0.2) ;
+    box-shadow: 0 10px 100px rgba(64, 130, 206, 0.5) ;
     text-align: left;
     font-weight: 500;
 }
@@ -132,7 +132,7 @@ body.dark_mode .change_theme_button {
     background-color: #eceff1;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 10px 100px rgba(64, 130, 206, 0.2) ;
+    box-shadow: 0 10px 100px rgba(64, 130, 206, 0.5) ;
     text-align: left;
     font-weight: 500;
     box-shadow: -3px 0px 0px rgba(0, 0, 0, 10) ;
